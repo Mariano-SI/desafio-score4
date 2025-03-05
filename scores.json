@@ -22,6 +22,122 @@
           "scoreLabel": "A",
           "scoreSuccess": "success",
           "details": "Utiliza GitFlow corretamente."
+        },
+        {
+          "id": 2158,
+          "title": "Code Reviews",
+          "scorePercent": 80,
+          "scoreLabel": "B+",
+          "scoreSuccess": "success",
+          "details": "Todos os PRs são revisados por pelo menos um membro da equipe."
+        },
+        {
+          "id": 2159,
+          "title": "Linting & Formatting",
+          "scorePercent": 70,
+          "scoreLabel": "C+",
+          "scoreSuccess": "partial",
+          "details": "Utiliza ESLint e Prettier, mas há alguns commits sem formatação."
+        }
+      ]
+    },
+    {
+      "id": 2200,
+      "title": "Documentation",
+      "scorePercent": 60,
+      "scoreLabel": "C",
+      "scoreSuccess": "partial",
+      "scoreEntries": [
+        {
+          "id": 2201,
+          "title": "README",
+          "scorePercent": 75,
+          "scoreLabel": "B",
+          "scoreSuccess": "almost-success",
+          "details": "README bem estruturado, com instruções de instalação e uso."
+        },
+        {
+          "id": 2202,
+          "title": "API Documentation",
+          "scorePercent": 50,
+          "scoreLabel": "Yellow",
+          "scoreSuccess": "almost-failure",
+          "details": "A documentação da API está incompleta e precisa ser revisada."
+        }
+      ]
+    },
+    {
+      "id": 2203,
+      "title": "Operations",
+      "scorePercent": 70,
+      "scoreLabel": "C+",
+      "scoreSuccess": "partial",
+      "scoreEntries": [
+        {
+          "id": 2204,
+          "title": "CI/CD Pipeline",
+          "scorePercent": 80,
+          "scoreLabel": "B+",
+          "scoreSuccess": "success",
+          "details": "Pipeline automatizado com testes e deploy contínuo configurado."
+        },
+        {
+          "id": 2205,
+          "title": "Monitoring & Alerts",
+          "scorePercent": 60,
+          "scoreLabel": "C",
+          "scoreSuccess": "partial",
+          "details": "Monitoramento básico configurado, mas sem alertas definidos."
+        }
+      ]
+    },
+    {
+      "id": 2206,
+      "title": "Quality",
+      "scorePercent": 65,
+      "scoreLabel": "C+",
+      "scoreSuccess": "partial",
+      "scoreEntries": [
+        {
+          "id": 2207,
+          "title": "Unit Tests",
+          "scorePercent": 70,
+          "scoreLabel": "C+",
+          "scoreSuccess": "partial",
+          "details": "Cobertura de testes unitários em torno de 70%."
+        },
+        {
+          "id": 2208,
+          "title": "Integration Tests",
+          "scorePercent": 50,
+          "scoreLabel": "Yellow",
+          "scoreSuccess": "almost-failure",
+          "details": "Alguns testes de integração estão ausentes ou falhando."
+        }
+      ]
+    },
+    {
+      "id": 2209,
+      "title": "Security",
+      "scorePercent": 55,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "almost-failure",
+      "scoreEntries": [
+        {
+          "id": 2210,
+          "title": "HTTPS Enforcement",
+          "scorePercent": 100,
+          "scoreLabel": "A",
+          "scoreSuccess": "success",
+          "details": "Todas as comunicações utilizam HTTPS."
+        },
+        {
+          "id": 2211,
+          "title": "Vulnerabilities Scan",
+          "scorePercent": 40,
+          "scoreLabel": "Red",
+          "scoreSuccess": "failure",
+          "details": "Faltam verificações automatizadas de vulnerabilidades."
         }
       ]
     }
