@@ -1,0 +1,29 @@
+{
+  "entityRef": {
+    "kind": "component",
+    "name": "desafio-score4"
+  },
+  "generatedDateTimeUtc": "2025-03-05T12:00:00Z",
+  "scorePercent": 75,
+  "scoreLabel": "B",
+  "scoreSuccess": "success",
+  "areaScores": [
+    {
+      "id": 2199,
+      "title": "Code",
+      "scorePercent": 80,
+      "scoreLabel": "B+",
+      "scoreSuccess": "success",
+      "scoreEntries": [
+        {
+          "id": 2157,
+          "title": "Branching",
+          "scorePercent": 100,
+          "scoreLabel": "A",
+          "scoreSuccess": "success",
+          "details": "Utiliza GitFlow corretamente."
+        }
+      ]
+    }
+  ]
+}
