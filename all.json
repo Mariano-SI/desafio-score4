@@ -1,0 +1,170 @@
+[
+  {
+    "entityRef": {
+      "kind": "component",
+      "name": "desafio10"
+    },
+    "scorePercent": 65,
+    "scoreLabel": "C",
+    "scoringReviewDate": "2025-03-05T08:00:00Z",
+    "scoreSuccess": "partial",
+    "areaScores": [
+      {
+        "title": "Code",
+        "scorePercent": 80,
+        "scoreLabel": "B",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Documentation",
+        "scorePercent": 50,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "almost-failure"
+      },
+      {
+        "title": "Operations",
+        "scorePercent": 70,
+        "scoreLabel": "C",
+        "scoreSuccess": "partial"
+      },
+      {
+        "title": "Quality",
+        "scorePercent": 60,
+        "scoreLabel": "C",
+        "scoreSuccess": "partial"
+      },
+      {
+        "title": "Security",
+        "scorePercent": 55,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "almost-failure"
+      }
+    ]
+  },
+  {
+    "entityRef": {
+      "kind": "component",
+      "name": "desafio11"
+    },
+    "scorePercent": 80,
+    "scoreLabel": "B+",
+    "scoringReviewDate": "2025-03-05T08:00:00Z",
+    "scoreSuccess": "success",
+    "areaScores": [
+      {
+        "title": "Code",
+        "scorePercent": 90,
+        "scoreLabel": "A",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Documentation",
+        "scorePercent": 70,
+        "scoreLabel": "C",
+        "scoreSuccess": "partial"
+      },
+      {
+        "title": "Operations",
+        "scorePercent": 85,
+        "scoreLabel": "B+",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Quality",
+        "scorePercent": 75,
+        "scoreLabel": "B",
+        "scoreSuccess": "almost-success"
+      },
+      {
+        "title": "Security",
+        "scorePercent": 80,
+        "scoreLabel": "B+",
+        "scoreSuccess": "success"
+      }
+    ]
+  },
+  {
+    "entityRef": {
+      "kind": "component",
+      "name": "desafio12"
+    },
+    "scorePercent": 50,
+    "scoreLabel": "D",
+    "scoringReviewDate": "2025-03-05T08:00:00Z",
+    "scoreSuccess": "almost-failure",
+    "areaScores": [
+      {
+        "title": "Code",
+        "scorePercent": 60,
+        "scoreLabel": "C",
+        "scoreSuccess": "partial"
+      },
+      {
+        "title": "Documentation",
+        "scorePercent": 40,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      },
+      {
+        "title": "Operations",
+        "scorePercent": 55,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "almost-failure"
+      },
+      {
+        "title": "Quality",
+        "scorePercent": 45,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      },
+      {
+        "title": "Security",
+        "scorePercent": 50,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "almost-failure"
+      }
+    ]
+  },
+  {
+    "entityRef": {
+      "kind": "component",
+      "name": "desafio-score4"
+    },
+    "scorePercent": 75,
+    "scoreLabel": "B",
+    "scoringReviewDate": "2025-03-05T08:00:00Z",
+    "scoreSuccess": "almost-success",
+    "areaScores": [
+      {
+        "title": "Code",
+        "scorePercent": 85,
+        "scoreLabel": "B+",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Documentation",
+        "scorePercent": 65,
+        "scoreLabel": "C",
+        "scoreSuccess": "partial"
+      },
+      {
+        "title": "Operations",
+        "scorePercent": 80,
+        "scoreLabel": "B",
+        "scoreSuccess": "almost-success"
+      },
+      {
+        "title": "Quality",
+        "scorePercent": 70,
+        "scoreLabel": "C+",
+        "scoreSuccess": "partial"
+      },
+      {
+        "title": "Security",
+        "scorePercent": 75,
+        "scoreLabel": "B",
+        "scoreSuccess": "almost-success"
+      }
+    ]
+  }
+]
