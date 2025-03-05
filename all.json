@@ -2,172 +2,97 @@
   {
     "entityRef": {
       "kind": "component",
-      "name": "desafio10"
-    },
-    "generatedDateTimeUtc": "2025-03-05T08:00:00Z",
-    "scorePercent": 65,
-    "scoreLabel": "C",
-    "scoringReviewDate": "2025-03-05T08:00:00Z",
-    "scoreSuccess": "partial",
-    "areaScores": [
-      {
-        "title": "Code",
-        "scorePercent": 80,
-        "scoreLabel": "B",
-        "scoreSuccess": "success"
-      },
-      {
-        "title": "Documentation",
-        "scorePercent": 50,
-        "scoreLabel": "Yellow",
-        "scoreSuccess": "almost-failure"
-      },
-      {
-        "title": "Operations",
-        "scorePercent": 70,
-        "scoreLabel": "C",
-        "scoreSuccess": "partial"
-      },
-      {
-        "title": "Quality",
-        "scorePercent": 60,
-        "scoreLabel": "C",
-        "scoreSuccess": "partial"
-      },
-      {
-        "title": "Security",
-        "scorePercent": 55,
-        "scoreLabel": "Yellow",
-        "scoreSuccess": "almost-failure"
-      }
-    ]
-  },
-  {
-    "entityRef": {
-      "kind": "component",
-      "name": "desafio11"
-    },
-    "generatedDateTimeUtc": "2025-03-05T08:00:00Z",
-    "scorePercent": 80,
-    "scoreLabel": "B+",
-    "scoringReviewDate": "2025-03-05T08:00:00Z",
-    "scoreSuccess": "success",
-    "areaScores": [
-      {
-        "title": "Code",
-        "scorePercent": 90,
-        "scoreLabel": "A",
-        "scoreSuccess": "success"
-      },
-      {
-        "title": "Documentation",
-        "scorePercent": 70,
-        "scoreLabel": "C",
-        "scoreSuccess": "partial"
-      },
-      {
-        "title": "Operations",
-        "scorePercent": 85,
-        "scoreLabel": "B+",
-        "scoreSuccess": "success"
-      },
-      {
-        "title": "Quality",
-        "scorePercent": 75,
-        "scoreLabel": "B",
-        "scoreSuccess": "almost-success"
-      },
-      {
-        "title": "Security",
-        "scorePercent": 80,
-        "scoreLabel": "B+",
-        "scoreSuccess": "success"
-      }
-    ]
-  },
-  {
-    "entityRef": {
-      "kind": "component",
-      "name": "desafio12"
-    },
-    "generatedDateTimeUtc": "2025-03-05T08:00:00Z",
-    "scorePercent": 50,
-    "scoreLabel": "D",
-    "scoringReviewDate": "2025-03-05T08:00:00Z",
-    "scoreSuccess": "almost-failure",
-    "areaScores": [
-      {
-        "title": "Code",
-        "scorePercent": 60,
-        "scoreLabel": "C",
-        "scoreSuccess": "partial"
-      },
-      {
-        "title": "Documentation",
-        "scorePercent": 40,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
-      },
-      {
-        "title": "Operations",
-        "scorePercent": 55,
-        "scoreLabel": "Yellow",
-        "scoreSuccess": "almost-failure"
-      },
-      {
-        "title": "Quality",
-        "scorePercent": 45,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
-      },
-      {
-        "title": "Security",
-        "scorePercent": 50,
-        "scoreLabel": "Yellow",
-        "scoreSuccess": "almost-failure"
-      }
-    ]
-  },
-  {
-    "entityRef": {
-      "kind": "component",
       "name": "desafio-score4"
     },
     "generatedDateTimeUtc": "2025-03-05T08:00:00Z",
     "scorePercent": 75,
     "scoreLabel": "B",
+    "scoringReviewer": "Guest",
     "scoringReviewDate": "2025-03-05T08:00:00Z",
     "scoreSuccess": "almost-success",
     "areaScores": [
       {
+        "id": 2199,
         "title": "Code",
         "scorePercent": 85,
         "scoreLabel": "B+",
-        "scoreSuccess": "success"
+        "scoreSuccess": "success",
+        "scoreEntries": [
+          {
+            "id": 2157,
+            "title": "GitFlow",
+            "scorePercent": 100,
+            "scoreSuccess": "success",
+            "scoreHints": "Gitflow: 100%",
+            "details": "Implementation follows GitFlow standard."
+          }
+        ]
       },
       {
+        "id": 3937,
         "title": "Documentation",
         "scorePercent": 65,
         "scoreLabel": "C",
-        "scoreSuccess": "partial"
+        "scoreSuccess": "partial",
+        "scoreEntries": [
+          {
+            "id": 3938,
+            "title": "Project introduction",
+            "scorePercent": 100,
+            "scoreSuccess": "success",
+            "scoreHints": "Well structured/documented: 100%",
+            "details": "Project home page is properly documented."
+          }
+        ]
       },
       {
+        "id": 2208,
         "title": "Operations",
         "scorePercent": 80,
         "scoreLabel": "B",
-        "scoreSuccess": "almost-success"
+        "scoreSuccess": "almost-success",
+        "scoreEntries": [
+          {
+            "id": 2176,
+            "title": "CI Pipelines",
+            "scorePercent": 70,
+            "scoreSuccess": "partial",
+            "details": "Continuous integration pipelines are in place but can be improved."
+          }
+        ]
       },
       {
+        "id": 4333,
         "title": "Quality",
         "scorePercent": 70,
         "scoreLabel": "C+",
-        "scoreSuccess": "partial"
+        "scoreSuccess": "partial",
+        "scoreEntries": [
+          {
+            "id": 2187,
+            "title": "Code Reviews",
+            "scorePercent": 100,
+            "scoreSuccess": "success",
+            "scoreHints": "PRs require reviewers",
+            "details": "Pull requests follow review guidelines."
+          }
+        ]
       },
       {
+        "id": 4328,
         "title": "Security",
         "scorePercent": 75,
         "scoreLabel": "B",
-        "scoreSuccess": "almost-success"
+        "scoreSuccess": "almost-success",
+        "scoreEntries": [
+          {
+            "id": 2158,
+            "title": "Https",
+            "scorePercent": 100,
+            "scoreSuccess": "success",
+            "details": "All endpoints use SSL encryption."
+          }
+        ]
       }
     ]
   }
