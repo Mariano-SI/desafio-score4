@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "desafio-score4"
+  annotations:
+    scorecard/jsonDataUrl: 'https://raw.githubusercontent.com/Mariano-SI/desafio-score4/master/scores.json'
 spec:
   type: service
   owner: user:guest
